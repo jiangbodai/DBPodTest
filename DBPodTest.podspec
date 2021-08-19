@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DBPodTest'
-  s.version          = '0.0.2'
-  s.summary          = 'DBPodTest 测试pod私有库'
+  s.version          = '0.0.3'
+  s.summary          = '测试pod私有库 --> 添加NSString分类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
