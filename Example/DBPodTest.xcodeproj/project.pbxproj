@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7200214526CE3B92009BCAEF /* DBPodTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7200214426CE3B92009BCAEF /* DBPodTestController.m */; };
 		7C6BAFE0CDF09CF87B05CEE4 /* Pods_DBPodTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DAA1C739F651BB28DB690A /* Pods_DBPodTest_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CC990FCEB6B725A474F25466 /* Pods_DBPodTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3DCC83368ECC7E248AF05F /* Pods_DBPodTest_Tests.framework */; };
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE84F47E77C962ED6D881EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0BE84F47E77C962ED6D881EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0DC795A9751DCD577AD21626 /* Pods-DBPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBPodTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DBPodTest_Tests/Pods-DBPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DBPodTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBPodTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,11 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7200214326CE3B92009BCAEF /* DBPodTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DBPodTestController.h; path = ../../DBPodTest/Classes/DBPodTestController.h; sourceTree = "<group>"; };
+		7200214426CE3B92009BCAEF /* DBPodTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DBPodTestController.m; path = ../../DBPodTest/Classes/DBPodTestController.m; sourceTree = "<group>"; };
 		774A3404E18E7136999C7412 /* Pods-DBPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBPodTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-DBPodTest_Example/Pods-DBPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		808A72663262F2A5B6B33B32 /* DBPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DBPodTest.podspec; path = ../DBPodTest.podspec; sourceTree = "<group>"; };
+		808A72663262F2A5B6B33B32 /* DBPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DBPodTest.podspec; path = ../DBPodTest.podspec; sourceTree = "<group>"; };
 		84DAA1C739F651BB28DB690A /* Pods_DBPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9CC45DACC5D6ECB96EA1256 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9CC45DACC5D6ECB96EA1256 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B852E5D878930FF9C18C40E9 /* Pods-DBPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-DBPodTest_Tests/Pods-DBPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF3DCC83368ECC7E248AF05F /* Pods_DBPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB1BDA6FAF5877502B0C3DA /* Pods-DBPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBPodTest_Example.release.xcconfig"; path = "Target Support Files/Pods-DBPodTest_Example/Pods-DBPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				7200214326CE3B92009BCAEF /* DBPodTestController.h */,
+				7200214426CE3B92009BCAEF /* DBPodTestController.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -193,7 +198,6 @@
 				0DC795A9751DCD577AD21626 /* Pods-DBPodTest_Tests.debug.xcconfig */,
 				B852E5D878930FF9C18C40E9 /* Pods-DBPodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiangbodai;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6HE462P7XK;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -375,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				7200214526CE3B92009BCAEF /* DBPodTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +503,7 @@
 			baseConfigurationReference = 774A3404E18E7136999C7412 /* Pods-DBPodTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HE462P7XK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBPodTest/DBPodTest-Prefix.pch";
 				INFOPLIST_FILE = "DBPodTest/DBPodTest-Info.plist";
@@ -510,6 +520,7 @@
 			baseConfigurationReference = DDB1BDA6FAF5877502B0C3DA /* Pods-DBPodTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HE462P7XK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBPodTest/DBPodTest-Prefix.pch";
 				INFOPLIST_FILE = "DBPodTest/DBPodTest-Info.plist";
