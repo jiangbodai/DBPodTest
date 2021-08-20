@@ -6,10 +6,10 @@
 //  Copyright (c) 2021 jiangbodai. All rights reserved.
 //
 
-
+#import "NSString+DBString.h"
 @import XCTest;
 
-#import "NSString+DBString.h"
+
 
 @interface Tests : XCTestCase
 
@@ -31,7 +31,8 @@
 
 - (void)testExample
 {
-    [NSString podTestString];
+    
+    NSLog(@"%ld",[@"1823" testTntegerValue]);
 //    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 

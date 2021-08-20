@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)podTestString;
 
+- (NSInteger)testTntegerValue;
+
 @end
 
 NS_ASSUME_NONNULL_END
